@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutBipem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="BIPEM APP"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0BD62D"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="135dp"
+            android:textAlignment="center"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="BIPEM adalah aplikasi untuk memasukkan biodata peserta Pengabdian Masyarakat Nasional. Di mana aplikasi ini sangat membantu pihak penyelanggara dalam mengumpulkan data dari mahasiswa seluruh Indonesia yang turut serta berpartisipasi dalam kegiatan ini. Banyaknya mahasiswa yang menjadi peserta kegiatan ini tidak memungkinkan apabila data diri atau biodata mereka harus diinputkan secara manual atau hanya sekedar hard file. Untuk menanggulangi atau meminimalisir hal - hal yang tidak diinginkan maka dibuatlah aplikasi BIPEM ini."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Fitur Aplikasi :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="Aplikasi BIPEM sudah dilengkapi dengan menggunakan CRUD. CRUD adalah salah satu istilah yang populer di kalangan back end developer. CRUD adalah singkatan dari create, read, update, and delete. Keempat poin ini menurut Techopedia merupakan fungsi-fungsi utama yang diimplementasikan dalam aplikasi database. Sebagai back end developer, kamu mungkin telah sering mendengar istilah ini. Biasanya, CRUD digunakan dengan SQL. Ini karena SQL cukup populer di kalangan developer, sehingga memahami CRUD menjadi salah satu aspek penting dalam pekerjaannya. Nah, apa sebenarnya CRUD ini?"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Create"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="Fungsi CRUD yang pertama adalah create. Fungsi ini memungkinkanmu membuat record baru dalam database. Dalam aplikasi SQL, fungsi create sering disebut juga sebagai insert. Kamu dapat membuat baris baru dan mengisinya dengan data yang sesuai dengan setiap atribut. Tetapi, hanya administrator yang dapat menambahkan atribut baru ke tabel itu sendiri."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Read"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="Fungsi read hampir mirip dengan fungsi search. Fungsi ini memungkinkan kamu untuk mencari dan mengambil data tertentu dalam tabel dan membaca nilainya.Kamu dapat menemukan record yang diinginkan menggunakan kata kunci,atau dengan memfilter data berdasarkan kriteria yang diinginkan."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Update"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="Untuk memodifikasi record yang telah tersimpan di database, fungsi CRUD yang bisa kamu gunakan adalah fungsi update. Namun, kamu perlu mengubah berbagai informasi terkait agar bisa memodifikasi record yang diinginkan secara utuh. Record yang ada dalam database harus diubah dan semua nilai atribut diubah untuk mencerminkan karakteristik baru yang diinginkan."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Delete"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="Ketika ada record atau data yang tidak lagi dibutuhkan dalam database, fungsi CRUD yang digunakan adalah fungsi delete. Fungsi ini dapat digunakan untuk menghapus data tersebut. Beberapa aplikasi database relasional mungkin mengizinkan kamu untuk melakukan hard delete atau soft delete. Hard delete akan secara menghapus  catatan dari database permanen. Sementara, soft delete hanya akan memperbarui status baris untuk menunjukkan bahwa data telah dihapus meskipun data tersebut tetap ada dan utuh."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="45dp"
+            android:text="PENGABDIAN MASYARAKAT"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#0BD62D"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="Pengabdian masyarakat adalah suatu kegiatan yang bertujuan membantu masyarakat tertentu dalam beberapa aktivitas tanpa mengharapkan imbalan dalam bentuk apapun. Secara umum program ini dirancang oleh berbagai universitas atau institut yang ada di Indonesia untuk memberikan kontribusi nyata bagi bangsa Indonesia, khususnya dalam mengembangkan kesejahteraan dan kemajuan bangsa Indonesia. Kegiatan Pengabdian Masyarakat merupakan salah satu bagian dari Tri Dharma Perguruan Tinggi."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="Kegiatan yang diikuti antara lain bakti sosial kepada masyarakat disuatu pedesaan, memberikan pengajaran dan pengarahan kepada masyarakat mengenai suatu hal atau solusi yang dapat dikembangkan sehingga dapat bermanfaat bagi masyarakat sekitar. Selain itu kegiatan ini juga memiliki manfaat yang luas bagi peserta yang turut serta berpartisipasi."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnb5"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_button"
+            android:drawableStart="@drawable/ic_baseline_home_24"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/white"
+            android:paddingHorizontal="25dp"
+            android:text="home"
+            android:textColor="#ffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.976" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

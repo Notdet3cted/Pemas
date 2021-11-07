@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.biodata_pemas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconn"
+        android:label="BIPEM"
+        android:roundIcon="@drawable/iconn"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Biodata_PEMAS">
+        <activity
+            android:name=".AboutBipem"
+            android:exported="true" />
+        <activity
+            android:name=".GetHelp"
+            android:exported="true" />
+        <activity
+            android:name=".Author"
+            android:exported="true" />
+        <activity
+            android:name=".AppInfo"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateBiodata"
+            android:exported="true" />
+        <activity
+            android:name=".LihatBiodata"
+            android:exported="true" />
+        <activity
+            android:name=".BuatBiodata"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
